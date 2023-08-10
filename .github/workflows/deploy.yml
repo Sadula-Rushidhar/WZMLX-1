@@ -9,12 +9,11 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: "dee60b17-cc7a-42d5-b11d-e50de2b47da6"
-          heroku_app_name: "mirror-201-rushi"
-          heroku_email: "sadulalook+6@proton.me"
+          heroku_api_key: "0b408d00-88af-491b-b39f-cd996b48caae"
+          heroku_app_name: "mirror-104-rushi"
+          heroku_email: "rushidharlook+2@proton.me"
 
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
           region: "eu"
-
