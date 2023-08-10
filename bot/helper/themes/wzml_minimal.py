@@ -81,7 +81,7 @@ class WZMLStyle:
     # ---------------------
 
     # async def restart_notification(): ---> __main__.py
-    RESTART_SUCCESS = '''⌬ <b><i>Restarted Successfully!</i></b>
+    RESTART_SUCCESS = '''┎ <b><i>Restarted Successfully!</i></b>
 ┠ <b>Date:</b> {date}
 ┠ <b>Time:</b> {time}
 ┠ <b>TimeZone:</b> {timz}
@@ -109,8 +109,8 @@ class WZMLStyle:
     L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<b><i>{Name}</i></b>\n┃\n'
-    SIZE =                  '┠ <b>Size: </b>{Size}\n'
+    NAME =                  '<code>{Name}</code>\n\n'
+    SIZE =                  '┎ <b>Size: </b>{Size}\n'
     ELAPSE =                '┠ <b>Elapsed: </b>{Time}\n'
     MODE =                  '┠ <b>Mode: </b>{Mode}\n'
 
@@ -131,7 +131,7 @@ class WZMLStyle:
     M_BOT_MSG =             '➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
     
     # ----- BUTTONS -------
-    CLOUD_LINK =      '☁️ Cloud Link'
+    CLOUD_LINK =      '☁️ Drive Link'
     SAVE_MSG =        '📨 Save Message'
     RCLONE_LINK =     '♻️ RClone Link'
     DDL_LINK =        '📎 {Serv} Link'
